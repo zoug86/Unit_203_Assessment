@@ -42,7 +42,7 @@ app.get('/api/lineitems', (req, res) => {
 
 app.post('/api/lineitems', (req, res) => {
     const { postalCode } = req.body;
-    const newDelivery = DELIVERY_DATES.filter(deliveryDate => deliveryDate.postal === postalCode);
+    const newDelivery = DELIVERY_DATES.filter(deliveryDate => deliveryDate.postal === postalCode[0].toUpperCase());
     res.status(200).json(newDelivery);
 })
 

@@ -4,9 +4,9 @@ import axios from 'axios';
 
 import './App.css'
 //Styling variables
-const BLUE = "#172162"; //"rgb(23, 33, 98)";
-const LIGHT_GREY = "#6e7484";
-const BLACK = "#000000";
+// const BLUE = "#172162"; //"rgb(23, 33, 98)";
+// const LIGHT_GREY = "#6e7484";
+// const BLACK = "#000000";
 
 
 //First part given
